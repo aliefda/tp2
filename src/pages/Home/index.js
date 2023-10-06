@@ -31,12 +31,6 @@ const Home = ({route, navigation}) => {
   );
 };
 
-Home.navigationOptions = ({ navigation }) => ({
-  headerRight: () => (
-    <Text style={styles.headerText}>{navigation.getParam('name', '')}</Text>
-  ),
-});
-
 export default Home;
 
 const styles = StyleSheet.create({

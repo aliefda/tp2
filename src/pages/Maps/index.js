@@ -44,12 +44,6 @@ const Maps = ({route, navigation}) => {
   );
 };
 
-Maps.navigationOptions = ({ navigation }) => ({
-  headerRight: () => (
-    <Text style={styles.headerText}>{navigation.getParam('name', '')}</Text>
-  ),
-});
-
 export default Maps;
 
 const styles = StyleSheet.create({
